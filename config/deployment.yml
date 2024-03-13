@@ -23,7 +23,7 @@ spec:
       - name: mini-project
         image: <IMAGE>
         ports:
-        - containerPort: 80
+        - containerPort: 5000
         resources:
           requests:
             cpu: 100m
