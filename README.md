@@ -70,3 +70,9 @@ curl --location 'http://0.0.0.0:5000/pokemon/poke/charizard/review' \
 | `/pokemon/poke/{name}`  | `GET`  | Detail Pokemon  |
 | `/pokemon/poke/{name}/review`  | `GET`  | Show Review Pokemon  |
 | `/pokemon/poke/{name}/review`  | `POST` | Create Review Pokemon |
+
+## DEMO REST API
+
+GET List Pokemon
+
+![](./docs/get_list_pokemon.gif)
