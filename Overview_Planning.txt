@@ -1,0 +1,28 @@
+Planning:
+- Build app Rest API use python flask framework [v]
+- mysql database fro poke_review [v]
+- create repo gitHub [v] 
+- CI/CD use Github to build docker images [v]
+- Deploy Kubernetes (k8s) --> Rest API Endpoint [v]
+- Monitoring use Zabbix (not done) [x]
+- Testing use Postman API [v]
+
+
+Overview Simple REST API Project for pokeapi.co:
+
+Project ini berupa api untuk list pokemon, detail dan review pokemon secara anonymous yang direcord dalam database. 
+Monitoring dilakukan menggunakan Zabbix (zabbix-server dam zabbix agent) untuk memonitor server dan host. 
+
+Fitur : 
+- menampilkan list pokemon (http://pokemon.afdulfauzan.my.id/pokemon/poke)
+- menampilkan detail pokemon (http://pokemon.afdulfauzan.my.id/pokemon/poke/pikachu)
+- memberikan review pokemon secara anonymous serta melakukan record ip dan user agent (http://pokemon.afdulfauzan.my.id/pokemon/poke/pikachu/review)
+
+Requirement:
+- Python 3.10
+- Virtual environment (venv)
+- Mysql for database
+- Postman API for testing
+- Zabbix for monitoring tools
+
+ 
