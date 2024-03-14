@@ -44,17 +44,17 @@ docker run -d -p 5000:5000 mini-project:v1.0
 ## Testing
 ### Finally test that everything works by executing the following curl command
 ```
-curl --location 'http://0.0.0.0:5000/pokemon/poke' \
+curl --location 'http://pokemon.afdulfauzan.my.id/pokemon/poke' \
 --data ''
 ```
 ```
-curl --location 'http://0.0.0.0:5000/pokemon/poke/charizard'
+curl --location 'http://pokemon.afdulfauzan.my.id/pokemon/poke/charizard'
 ```
 ```
-curl --location 'http://0.0.0.0:5000/pokemon/poke/charizard/review'
+curl --location 'http://pokemon.afdulfauzan.my.id/pokemon/poke/charizard/review'
 ```
 ```
-curl --location 'http://0.0.0.0:5000/pokemon/poke/charizard/review' \
+curl --location 'http://pokemon.afdulfauzan.my.id/pokemon/poke/charizard/review' \
 --header 'Content-Type: application/json' \
 --data '{
     "star": 5,
@@ -75,4 +75,16 @@ curl --location 'http://0.0.0.0:5000/pokemon/poke/charizard/review' \
 
 GET List Pokemon
 
-![](./docs/get_list_pokemon.gif)
+![](./docs/demo/get_list_pokemon.gif)
+
+GET Detail Pokemon
+
+![](./docs/demo/get_detail_pokemon.gif)
+
+POST Review Pokemon
+
+![](./docs/demo/post_review_pokemon.gif)
+
+GET Review Pokemon
+
+![](./docs/demo/get_review_pokemon.gif)
