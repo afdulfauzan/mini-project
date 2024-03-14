@@ -2,6 +2,11 @@
 
 ### Simple REST API Project for [pokeapi.con](https://pokeapi.co)
 
+## Team
+
+- Afdul Fauzan ([@afdulfauzan](https://github.com/afdulfauzan))
+- Fatori Aprilian ([@fatori841](https://github.com/fatori841))
+
 ## Dependencies
 
 - `flask`: https://flask.palletsprojects.com/en/3.0.x/
