@@ -73,6 +73,10 @@ curl --location 'http://pokemon.afdulfauzan.my.id/pokemon/poke/charizard/review'
 
 ## DEMO REST API
 
+REST API Endpoint
+
+- http://pokemon.afdulfauzan.my.id
+
 GET List Pokemon
 
 ![](./docs/demo/get_list_pokemon.gif)
